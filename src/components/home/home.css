@@ -1,0 +1,61 @@
+
+
+.main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .alreadyAccountExist {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .alreadyAccountExist p {
+    margin: 0;
+  }
+  
+  .alreadyAccountExist a {
+    color: #3498db;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  /* Responsive Styles */
+  @media (min-width: 769px) {
+    /* Styles for screens larger than 768px (tablets, laptops, desktops) */
+    .main {
+      max-width: 600px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* Styles for screens 768px and below (tablets, mobiles) */
+    .main {
+      padding: 15px;
+    }
+  
+    input,
+    button {
+      margin-bottom: 10px;
+    }
+  }
+  

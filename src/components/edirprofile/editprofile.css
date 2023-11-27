@@ -1,0 +1,35 @@
+.editprofilecontainer{
+    width: 40%;
+    margin: 100px 25%;
+    margin-top: -155px;
+}
+.paragraph{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+}
+.editProfile p{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    align-items: start;
+}
+.editProfile{
+    display: flex;
+    /* justify-content: center; */
+    align-items: start;
+    gap: 200px;
+}
+.profileUsername{
+    display: flex;
+    /* justify-content: center; */
+    align-items: start;
+    gap: 200px;
+}
+.profileUsername P{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    align-items: start;
+}
